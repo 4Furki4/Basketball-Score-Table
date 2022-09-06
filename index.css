@@ -1,9 +1,30 @@
 body {
     margin: 0;
-
+}
+.team {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    
+    text-align: center;
+    
+    color: #EEEEEE;
     
 }
 
+#home {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+}
+
+#guest {
+    margin-left: auto;
+}
 .container {
     display: flex;
     justify-content:space-around;
@@ -17,7 +38,7 @@ body {
     position: absolute;
     width: 155px;
     height: 120px;
-    left: 50px;
+    left: 82px;
     top: 80px;
 
     background: #080001;
@@ -44,7 +65,7 @@ body {
 
 button {
     position: absolute;
-    top: 235px;
+    top: 200px;
     width: 45px;
     height: 45px;
     background: none;
@@ -57,11 +78,21 @@ button {
 }
 
 #plus-one{
-    left: 60px;
+    left: 85px;
 }
 #plus-two{
-    left: 113px;
+    left: 136px;
 }
 #plus-tree {
-    left: 166;
+    left: 186px;
+}
+
+#minus-one{
+left: 316px;
+}
+#minus-two{
+    margin-left: 46px;
+}
+#minus-tree {
+    margin-left: 98px;
 }
