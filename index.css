@@ -97,3 +97,14 @@ left: 316px;
     margin-left: 98px;
 }
 
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+
+#restart {
+    left: 254px;
+    top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
