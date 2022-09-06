@@ -23,7 +23,7 @@ body {
 }
 
 #guest {
-    margin-left: auto;
+    /* text-decoration: underline; */
 }
 .container {
     display: flex;
@@ -65,7 +65,7 @@ body {
 
 button {
     position: absolute;
-    top: 200px;
+    top: 220px;
     width: 45px;
     height: 45px;
     background: none;
@@ -77,22 +77,23 @@ button {
     font-style: normal;
 }
 
-#plus-one{
+#plus-one-home{
     left: 85px;
 }
-#plus-two{
+#plus-two-home{
     left: 136px;
 }
-#plus-tree {
+#plus-tree-home {
     left: 186px;
 }
 
-#minus-one{
+#plus-one-guest{
 left: 316px;
 }
-#minus-two{
+#plus-two-guest{
     margin-left: 46px;
 }
-#minus-tree {
+#plus-tree-guest {
     margin-left: 98px;
 }
+
